@@ -1,0 +1,21 @@
+.nav{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.link-item{
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  list-style: none;
+  border: 1px solid black;
+}
+
+.link-item:hover{
+  background-color: black;
+  color: white;
+}
